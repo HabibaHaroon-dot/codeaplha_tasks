@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="calculator.js"></script>
+  </head>
+  <body>
+    <!--    <div class="heading">-->
+    <!--      <h1>CALCULATOR</h1>-->
+    <!--    </div>-->
+    <div class="calculation-display" id="calculation-display"></div>
+    <div class="calculator-body">
+      <button onclick="updateCalculation(1);">1</button>
+      <button onclick="updateCalculation(2);">2</button>
+      <button onclick="updateCalculation(3);">3</button>
+      <button class="arithmetic" onclick="updateCalculation(' + ');">+</button>
+      <button onclick="updateCalculation(4);">4</button>
+      <button onclick="updateCalculation(5);">5</button>
+      <button onclick="updateCalculation(6);">6</button>
+      <button class="arithmetic" onclick="updateCalculation(' - ');">-</button>
+      <button onclick="updateCalculation(7);">7</button>
+      <button onclick="updateCalculation(8);">8</button>
+      <button onclick="updateCalculation(9);">9</button>
+      <button class="arithmetic" onclick="updateCalculation(' * ');">*</button>
+      <button onclick="updateCalculation(0)">0</button>
+      <button onclick="updateCalculation('.')">.</button>
+      <button onclick="updateCalculation('=')">=</button>
+      <button class="arithmetic" onclick="updateCalculation('/')">/</button>
+      <button class="clear-button" onclick="updateCalculation('')">
+        Clear
+      </button>
+    </div>
+  </body>
+</html>

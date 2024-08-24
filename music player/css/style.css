@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  background: #1e1e1e;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+}
+
+.player-header {
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.album-art img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.track-info {
+  margin: 20px 0;
+}
+
+.player-controls button {
+  background: #333;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.player-controls button:focus {
+  outline: none;
+}
+
+.player-progress {
+  margin-top: 20px;
+}
+
+#progress {
+  width: 100%;
+  -webkit-appearance: none;
+  background: #333;
+  height: 5px;
+  border-radius: 5px;
+}
+
+#progress::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #fff;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
